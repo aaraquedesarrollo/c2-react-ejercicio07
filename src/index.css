@@ -22,3 +22,19 @@
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+.formulario {
+  width: 70%;
+}
+
+.texto {
+  width: 70%;
+  text-align: start;
+}
+
+.formulario input {
+  width: 100%;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding-left: 10px;
+}
