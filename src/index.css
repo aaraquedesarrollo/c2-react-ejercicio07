@@ -1,0 +1,24 @@
+.listado {
+  list-style: none;
+}
+
+.item-lista {
+  border: 1px lightgrey solid;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: none;
+}
+
+.item-lista:nth-last-child(1) {
+  border-bottom: 1px lightgrey solid;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.item-lista:nth-child(1) {
+  border-bottom: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
